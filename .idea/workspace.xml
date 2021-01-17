@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9a9b589-ad91-47e6-af84-c96f3bb92c85" name="Default Changelist" comment="Remove dockerfile from develop branch." />
+    <list default="true" id="b9a9b589-ad91-47e6-af84-c96f3bb92c85" name="Default Changelist" comment="Remove dockerfile from develop branch.">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +55,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1kHyopD0t0D36LK4XAnyD3CvaiU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -73,12 +77,13 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\IdeaProjects\thymeleaf-demo" />
-      <recent name="D:\Projects\IdeaProjects\app" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\IdeaProjects\thymeleaf-demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="D:\Projects\IdeaProjects\thymeleaf-demo" />
+      <recent name="D:\Projects\IdeaProjects\app" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -155,7 +160,7 @@
       <workItem from="1610876934082" duration="3355000" />
       <workItem from="1610880705959" duration="398000" />
       <workItem from="1610888073325" duration="1355000" />
-      <workItem from="1610890035473" duration="91000" />
+      <workItem from="1610890035473" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="Added Dockerfile.">
       <created>1605372893957</created>
@@ -308,30 +313,42 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1610888600615" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1610889921880">
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610890252355">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1610889921880" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1610889921878">
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1610890252355" />
+    <state x="500" y="304" key="Github.ShareDialog" timestamp="1610890397935">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1610889921878" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1610889921730">
+    <state x="500" y="304" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1610890397935" />
+    <state x="281" y="112" key="Github.UntrackedFilesDialog" timestamp="1610890434010">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="281" y="112" key="Github.UntrackedFilesDialog/0.23.1280.777@0.23.1280.777" timestamp="1610890434010" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1610890296440">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1610889921730" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1610889921879">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1610890296440" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1610890296438">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1610889921879" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1610890296438" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1610890296437">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1610890296437" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1610890296439">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1610890296439" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1610890126999">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1610890126999" />
-    <state x="305" y="148" width="670" height="716" key="run.anything.popup" timestamp="1610888835800">
+    <state x="305" y="148" width="670" height="716" key="run.anything.popup" timestamp="1610890279279">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="148" width="670" height="716" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1610888835800" />
+    <state x="305" y="148" width="670" height="716" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1610890279279" />
     <state x="305" y="167" width="670" height="695" key="run.anything.popup/0.23.1280.777@0.23.1280.777" timestamp="1610888664392" />
   </component>
   <component name="XDebuggerManager">

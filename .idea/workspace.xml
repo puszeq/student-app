@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9a9b589-ad91-47e6-af84-c96f3bb92c85" name="Default Changelist" comment="Remove dockerfile from develop branch.">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b9a9b589-ad91-47e6-af84-c96f3bb92c85" name="Default Changelist" comment="minor changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,7 +157,7 @@
       <workItem from="1610876934082" duration="3355000" />
       <workItem from="1610880705959" duration="398000" />
       <workItem from="1610888073325" duration="1355000" />
-      <workItem from="1610890035473" duration="1234000" />
+      <workItem from="1610890035473" duration="1587000" />
     </task>
     <task id="LOCAL-00001" summary="Added Dockerfile.">
       <created>1605372893957</created>
@@ -274,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609778730344</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="minor changes">
+      <created>1610892669437</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610892669438</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,17 +310,18 @@
     <MESSAGE value="Added Dockerfile." />
     <MESSAGE value="Added fix." />
     <MESSAGE value="Remove dockerfile from develop branch." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove dockerfile from develop branch." />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610888600615">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1610888600615" />
-    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610890252355">
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610892620608">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1610890252355" />
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1610892620608" />
     <state x="500" y="304" key="Github.ShareDialog" timestamp="1610890397935">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -325,30 +330,34 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="281" y="112" key="Github.UntrackedFilesDialog/0.23.1280.777@0.23.1280.777" timestamp="1610890434010" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1610890296440">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1610892626178">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1610890296440" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1610890296438">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1610892626178" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1610892626177">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1610890296438" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1610890296437">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1610892626177" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1610892626176">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1610890296437" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1610890296439">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1610892626176" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1610892626178">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1610890296439" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1610892626178" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1610890126999">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1610890126999" />
-    <state x="305" y="148" width="670" height="716" key="run.anything.popup" timestamp="1610890279279">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1610892697563">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="148" width="670" height="716" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1610890279279" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1610892697563" />
+    <state x="305" y="148" width="670" height="716" key="run.anything.popup" timestamp="1610892626118">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="148" width="670" height="716" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1610892626118" />
     <state x="305" y="167" width="670" height="695" key="run.anything.popup/0.23.1280.777@0.23.1280.777" timestamp="1610888664392" />
   </component>
   <component name="XDebuggerManager">

@@ -1,0 +1,51 @@
+version: '3.3'
+
+services:
+
+ Full2020-86380:
+  image: mysql
+  networks:
+   bridge-zadanie-1:
+    ipv4_address: 10.0.10.3
+  environment:
+   - MYSQL_ROOT_PASSWORD=root
+   - MYSQL_DATABASE=students
+   - MYSQL_USER=aoleszczuk
+   - MYSQL_PASSWORD=aoleszczuk
+  ports:
+   - 3306:3306
+  volumes:
+   - db-data:/var/lib/mysql
+  healthcheck:
+   test: "/usr/bin/mysql --user=root --password=root--execute \"SHOW DATABASES;\""
+   interval: 2s
+   timeout: 20s
+   retries: 10
+
+ app:
+  restart: on-failure
+  image: puszeq/student-app:latest
+  ports:
+   - 8080:8080
+  networks:
+   bridge-zadanie-1:
+    ipv4_address: 10.0.10.2
+  environment:
+   WAIT_HOSTS: mysql:3306
+   SPRING_DATASOURCE_URL: jdbc:mysql://Full2020-86380:3306/students?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+   SPRING_DATASOURCE_USERNAME: aoleszczuk
+   SPRING_DATASOURCE_PASSWORD: aoleszczuk
+  depends_on:
+   - Full2020-86380
+  links:
+   - Full2020-86380
+
+volumes:
+ db-data:
+
+networks:
+  bridge-zadanie-1:
+    driver: bridge
+    ipam:
+     config:
+      - subnet: 10.0.10.0/24

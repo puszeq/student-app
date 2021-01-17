@@ -1,4 +1,4 @@
 FROM openjdk:8-jdk-alpine
-ADD application.jar application.jar
+ADD runapp.jar runapp.jar
 EXPOSE 8086
-ENTRYPOINT ["java","-jar","application.jar"]
+ENTRYPOINT ["java","-jar","runapp.jar"]
